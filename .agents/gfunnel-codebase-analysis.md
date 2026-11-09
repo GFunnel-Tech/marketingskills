@@ -89,6 +89,18 @@ Client work clusters in: **mortgage/real-estate lead gen, home-services contract
 
 ---
 
+## 4.1 Competitors by audience (owner-confirmed audiences: individuals, business owners, agencies)
+
+| Audience | What they're buying | Who they'd otherwise buy | Most dangerous |
+|---|---|---|---|
+| **Individuals** who want to start or run their own business | A path to a first business: formation, a site/funnel, a course, a community, a way to earn (partner program) | **Skool** (community + courses + "Skool Games"), **systeme.io** (free all-in-one for solopreneurs), Kajabi, ClickFunnels, Stan Store · **ZenBusiness / LegalZoom** (formation + website + compliance; overlaps the Organizer and Business Registration service) | **Skool** for community and earning; **ZenBusiness** for "start my business" |
+| **Business owners** | Leads and operations: software plus people who do the work | **Thryv**, **Marketing 360**, HubSpot Starter, Keap, GHL reseller agencies, local agencies, delegation services (Magic, Belay) | **Thryv** (software + services for local SMBs); **GHL resellers** at the $97 price point |
+| **Agencies** | Software to run clients, plus white-label fulfillment and margin | **GoHighLevel direct** (an agency can buy GHL Unlimited itself, so GHL *is* a competitor for this audience), **DashClicks**, **Vendasta**, Extendly, white-label service shops | **GoHighLevel** and **DashClicks** |
+
+**Nobody serves all three as one journey.** Skool and systeme.io stop at the individual, Thryv and Marketing 360 at the business owner, GHL, DashClicks and Vendasta at the agency. The code already models that journey: personal workspace (individual) → business workspace (owner) → agency/reseller side of Fulfillment plus partner ranks (agency). The Store's three sectors say it too: Creation (build my business) → Acquisition (get customers) → Expansion (scale).
+
+**Positioning that only GFunnel can claim:** *one platform from idea to business to agency*, where each stage keeps the same workspace, the same apps (GoHighLevel included) and the same team. Each audience gets its own front door (`/personal`, `/business`, `/agency` already exist), and the headline on each is that stage's job, not the whole platform.
+
 ## 5. Competitor map
 
 **Positioning note:** GoHighLevel is **not a competitor — it is one of the apps you access inside GFunnel.** The code agrees: GHL is provisioned per workspace and deep-linked from the App Hub alongside Google Drive, diagrams.net and the rest. GFunnel is the layer above the apps — the workspace, the methodology, the services and the people who do the work.

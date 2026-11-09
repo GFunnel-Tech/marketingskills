@@ -14,7 +14,12 @@
 - Partners earn 30–70% commission. **[CONFIRM the single canonical price sheet]**
 
 ## Target Audience
-**Target companies:** Owner-led local and service businesses with 1–20 staff that already make money and want more leads. The first vertical is **[CONFIRM: home services, or mortgage/real estate/insurance]**. The secondary track is small marketing agencies that need white-label fulfillment.
+**Target audiences (three, as one journey):**
+1. **Individuals** who want to start or run their own business (aspiring founders, solopreneurs, creators, would-be resellers).
+2. **Business owners** who already make money and want more leads and less operational work. Priority vertical **[CONFIRM]**.
+3. **Agencies** that serve business owners and need software, white-label fulfillment and margin.
+
+**Positioning line:** One platform from idea to business to agency.
 **Decision-makers:** The owner/founder, who decides and pays. An office manager is the day-to-day user.
 **Primary use case:** Get a predictable flow of leads and booked appointments without hiring a marketing team or juggling five vendors.
 **Jobs to be done:**
