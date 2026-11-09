@@ -6,6 +6,41 @@ Repos analyzed: `platform` (live PHP/UNA v15), `gfunnel_com` (legacy source of t
 
 ---
 
+## 0. Structural read: what the architecture says GFunnel is (read this first)
+
+Ignore every label and look only at the systems. The platform is built on a **social-network engine** (UNA CMS: 62 core modules, 25 GFunnel modules, 16 licensed add-ons). Its organizing principle: **every entity is a profile on one social graph.**
+
+| Layer | Systems in code |
+|---|---|
+| **Profiles (the graph)** | People (`bx_persons`), businesses (`bx_organizations`), groups, spaces, channels, events, courses/communities, **apps** (`gfunnel_software`, ~5,000 claimable app profiles), **offers** (`gfunnel_offers`), **AI personas** (`gfunnel_personas`, AI that can post and act as a profile). Each has a page, followers, connections, comments, reactions. |
+| **Social** | Timeline/feed, a Facebook-shaped `/social` home, Reels (TikTok-style), messenger + chat popup + video calls, friends/followers, notifications, forum, polls, live streaming, blogs/articles. |
+| **Directories** | Businesses (`mz_listing`, plus the Business Atlas spec for ~300M claimable business records), apps (marketplace + reviews + claims), vendors (people to hire), people, jobs, programs/offers, Master Reseller directory. |
+| **Marketplace & economy** | Product marketplace (`bx_market`), credits wallet, Stripe Connect, donations, classifieds, multi-tier affiliate matrix, partner ranks, MRR licences, vendor bidding, fulfillment ledger with cost/price split. |
+| **Workspaces (business OS)** | Each business profile is also a workspace: App Hub with GoHighLevel per workspace, Sales Hub, Organizer (company records), Projects, time tracking & invoicing, org chart, roles, BEAS business score, support desk. |
+| **AI** | Agents Hub (scheduled agents, budgets, approvals, cost ledger, multi-provider), `/ai` canvas, AI personas, AI usage resale with markup, MCP/tools, `llms.txt` for AI search. |
+| **Learning & knowledge** | Courses/classroom, Help Center, Articles (methodology library), wiki. |
+
+**What that structure is:** a **business social network**, a LinkedIn/Facebook-style graph of people, businesses, apps, offers and AI personas, where **each business profile is also its operating system**, and the network has a **built-in economy** (marketplace, wallet, affiliates, fulfillment).
+
+### Competitors by structure (who else built the same kind of thing)
+
+| Structural match | Competitor | Overlap | Difference |
+|---|---|---|---|
+| Professional social graph: people + company pages + feed + messaging + jobs + learning + services | **LinkedIn** | Closest single analog | LinkedIn's company page is a brochure; GFunnel's is the company's operating system, with apps, AI and fulfillment inside |
+| Social network specifically for small-business owners | **Alignable** | Same audience, profiles, referrals | No workspace, no apps, no services, no economy |
+| Consumer social + Pages + Groups + Marketplace + Reels | **Facebook / Meta** (and Meta AI Studio for AI personas) | `/social`, Reels, groups, marketplace are the same shapes | Not built for running a business |
+| Communities + courses + earning | **Skool**, Circle, Mighty Networks | Community/course profiles, leaderboards, affiliates | Single-purpose |
+| Marketplace + communities + affiliates as one economy | **Whop** | Closest match for the creator/partner economy | No business OS, no business graph |
+| Claimable profile directories with reviews | **G2 / Product Hunt** (apps), **Clutch** (agencies/vendors), **Google Business Profile / Yelp** (businesses) | App, vendor and business directories, claims, reviews | Directories only |
+| Hire / bid marketplace | **Upwork, Fiverr** | Vendor network, bidding | No network or OS around it |
+| All-in-one business suite | **Zoho One**, HubSpot, GoHighLevel (included as an app) | Workspace tools | No social graph, no directories, no economy |
+
+**No competitor has all seven layers.** The closest are **LinkedIn** (graph + company pages + jobs + learning) and **Whop** (marketplace + communities + affiliates). GFunnel is the professional network where the company page *runs* the company.
+
+**Positioning, from structure:** *The social network for building and running a business. Your profile is your business: its apps, its team, its customers, its AI and its marketplace, connected to everyone else's.*
+
+**Risk the structure reveals:** a social network only has value with density (members, businesses, content). The directories (5,000 apps, the 300M-business Atlas plan) are the cold-start answer: pages that exist before members do, and that members come to claim. That is the growth loop to market around.
+
 ## 1. The honest one-paragraph answer
 
 GFunnel is **a done-for-you marketing & operations services company with its own software platform wrapped around it.** The deepest, most-tested engineering in the whole org is the **Fulfillment system** (~18.5k lines: a three-party ledger of client ↔ agency/reseller ↔ vendor with separate cost and price, vendor bidding, a white-label/anonymity flag, a 14-service catalogue). The software layer is a **community/business-OS shell (UNA CMS) on top of GoHighLevel**: every business workspace is provisioned as a GHL sub-account under GFunnel's agency, and ~35 GHL screens (funnels, workflows, phone, calendars, Voice AI) are deep-linked into the workspace. Around that sits a **multi-level partner/reseller program** (30–70% commissions, three generations deep) and a **dev shop** that builds client apps in Lovable/Supabase (Glide Media's Meta-ads agency platform, UpSmith/AskJenny, Energy Bill Fixer, KORR, NFT-Trees).

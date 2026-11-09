@@ -13,6 +13,10 @@
 - **Software: $97/mo**, the GFunnel workspace with **GoHighLevel and every other app included** (GHL's own entry plan is $97/mo by itself). $297/mo for unlimited workspaces. **[CONFIRM which GHL plan the $97 includes]**
 - Partners earn 30–70% commission. **[CONFIRM the single canonical price sheet]**
 
+## What GFunnel Is (from the architecture)
+A business social network: one graph of profiles (people, businesses, apps, offers, communities, AI personas) with a feed, messaging, directories and a marketplace, where every business profile is also that business's operating system (apps with GoHighLevel included, AI agents, fulfillment) and the network has its own economy (wallet, multi-tier affiliates, resell rights).
+Category analogs: LinkedIn (closest), Whop, Alignable, Skool. **[CONFIRM category name]**
+
 ## Core Promise
 Every app your business runs on, in one place (bring your own, or have one built), with support for each one and a team to do the work. GoHighLevel included for $97/mo.
 
