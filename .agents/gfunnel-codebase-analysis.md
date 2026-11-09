@@ -52,7 +52,9 @@ In other words, the code says we are four businesses at once:
 | Business Build (`gf_playbook.php`) | $297 setup + $97/mo, $37 downsell |
 | Partner modules (`Sales-hub`) | Foundation $297, Industry $997, Business-in-a-Box |
 
-⚠️ **Watch the price-point overlap.** Our software tiers ($97 / $297 / $497) happen to match GoHighLevel's own tiers ($97 / $297 / $497). GHL is an app inside GFunnel, so that's fine, but the pricing page should say what the price buys *beyond* the apps (the workspace, methodology, Sales Hub, Organizer, community), so a GHL-savvy buyer doesn't read it as "GHL at GHL's price".
+✅ **The software offer (owner-confirmed): $97/mo = the GFunnel workspace with GoHighLevel AND every other app included.** This turns the price match into the headline: GoHighLevel's own entry plan is $97/mo by itself (Starter, third-party sources). With GFunnel, the same $97 includes GHL **plus** the App Hub, Sales Hub, Organizer, Projects, community, courses and AI agents. Lead with it: *"Everything your business runs on, GoHighLevel included, for $97 a month."*
+- Make $97 the ONE software price everywhere. Today the code shows Single $97 / Unlimited $297 / Free/Pro/Agency / Office/Business. Collapse these so the $97 story isn't diluted. $297 Unlimited can stay as the multi-workspace (agency) tier.
+- Before quoting it, confirm what GHL plan each $97 workspace actually gets. The code provisions sub-accounts on a **$0 "free SaaS plan" with GHL-enforced limits** (`prod_VZJVwqZgreS4d2`), so the copy must not promise full GHL Starter features unless the plan is changed. **[CONFIRM]**
 
 ---
 
@@ -83,7 +85,7 @@ These are the companies selling the same thing we sell: software plus the team t
 **What this means for messaging:** all three sell "software + done for you." GFunnel's genuine differences, as backed by code:
 1. **Whole business, not just marketing.** Nine departments, the Organizer (formation, compliance), Projects, Sales Hub, time tracking/invoicing — Marketing 360 and DashClicks stop at marketing.
 2. **A diagnostic before a sale.** BEAS / the business assessment tells the owner what to fix first; none of the three leads with a methodology.
-3. **Open pricing ladder.** Published service tiers ($497 → $3,997/mo) vs Marketing 360's quote-only model.
+3. **Open, low entry price.** $97/mo software with GoHighLevel and every other app included, then published service tiers ($497 → $3,997/mo). Compare DashClicks (~$199/mo software), Vendasta (platform plus wholesale per product) and Marketing 360 (quote-only, services billed separately).
 4. **Agency + SMB on one platform**, with a partner program as a sales channel (DashClicks/Vendasta are agency-first; Marketing 360 is SMB-direct only).
 
 ### B. Adjacent — same job, different shape
@@ -117,7 +119,7 @@ A local marketing agency on retainer · hiring an in-house marketer ($55–75k/y
 **Lead with the services. Bundle the software. Use partners as the channel.**
 
 1. **Primary wedge — "Your marketing & ops department, with the software included."** Sell productized DFY services (start with Paid Ads + Funnel/Website + Automation/AI Employee, the three we have the most proof and tooling for) to **one** vertical cluster first. Best candidates by existing proof: **home services** (UpSmith work, 7 industry hubs) or **mortgage / real estate / insurance** (Glide/EMM, Lead System plan).
-2. **Software as retention, not the headline.** Include the workspace (GHL sub-account + Sales Hub + Organizer + community) in every retainer. GoHighLevel is presented as an included app, never as the thing being sold.
+2. **Software: one $97/mo plan with GoHighLevel and all apps included.** It's the low-friction entry offer and also comes bundled in every service retainer. GoHighLevel is shown as an included app, never as the thing being sold.
 3. **Agency track as second offer.** Our Fulfillment ledger + vendor bidding + white-label flag is genuinely agency-grade. Pitch: "White-label fulfillment for agencies — you keep the client and the margin." Competes head-on with DashClicks and Vendasta.
 4. **Partner program as distribution**, once reseller billing and payouts actually run.
 

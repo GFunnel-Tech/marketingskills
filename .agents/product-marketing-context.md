@@ -10,7 +10,7 @@
 **Business model:**
 - Service retainers: Starter $1,497, Pro $2,497 or Scale $3,997 per month (3-month minimum).
 - À-la-carte services: $97 to $3,500 per month.
-- Software alone: $97 or $297 per month.
+- **Software: $97/mo**, the GFunnel workspace with **GoHighLevel and every other app included** (GHL's own entry plan is $97/mo by itself). $297/mo for unlimited workspaces. **[CONFIRM which GHL plan the $97 includes]**
 - Partners earn 30–70% commission. **[CONFIRM the single canonical price sheet]**
 
 ## Target Audience
@@ -64,6 +64,8 @@
 - A vetted vendor network with a bidding system, which gives us capacity and price flexibility.
 - The GFunnel Methodology / BEAS 9-department score, which prioritizes what to fix first.
 - AI employees built and run for you, not just a tool.
+
+**Headline offer:** "Everything your business runs on, GoHighLevel included, for $97 a month."
 
 **Why customers choose us:** One price, one team, one login, and visible results.
 
