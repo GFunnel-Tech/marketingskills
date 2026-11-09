@@ -40,11 +40,14 @@
 **Emotional tension:** "I've been burned before," and "I don't know what's actually working."
 
 ## Competitive Landscape
-**Direct:**
-- GoHighLevel: same software underneath, same $97/$297/$497 prices, but no one does the work.
-- GHL "SaaS-mode" agencies.
-- DashClicks and Vendasta: white-label fulfillment plus software.
-- Extendly.
+**Direct (owner-confirmed):**
+- **DashClicks**: agency software plus a white-label fulfillment marketplace. Agency-first; reviews complain about fulfillment quality.
+- **Vendasta**: a white-label platform with a 250+ product marketplace. Enterprise-grade and complex, with wholesale-plus-markup pricing.
+- **Marketing 360**: a direct-to-SMB platform plus "your own marketing executive." Quote-only pricing, marketing only.
+
+**Not a competitor:** GoHighLevel. It is one of the apps inside a GFunnel workspace.
+
+**Adjacent:** GHL "SaaS-mode" agencies, which sell software only and not the team.
 
 **Secondary:**
 - Productized service subscriptions: Design Pickle, ManyPixels, Superside, Belay.
@@ -56,6 +59,7 @@
 
 ## Differentiation
 **Key differentiators:**
+- The whole business, not just marketing: nine departments, versus marketing-only competitors (Marketing 360, DashClicks).
 - Services and software from one team. The work happens inside your own workspace, which you keep.
 - A vetted vendor network with a bidding system, which gives us capacity and price flexibility.
 - The GFunnel Methodology / BEAS 9-department score, which prioritizes what to fix first.
@@ -66,7 +70,8 @@
 ## Objections & Anti-Personas
 | Objection | Response |
 |---|---|
-| "Isn't this just GoHighLevel?" | GHL is part of the toolkit. You're buying the team that runs it, and the software is included. |
+| "Isn't this just GoHighLevel?" | GoHighLevel is one of the apps included in your workspace. GFunnel is the workspace, the plan and the team that runs it. |
+| "How is this different from Marketing 360 / DashClicks?" | They run your marketing. GFunnel covers the whole business (nine departments) and starts with a free assessment of what to fix first, at published prices. |
 | "Agencies burned me." | Everything happens in your workspace, so you see every lead and every task. **[CONFIRM guarantee / month-to-month after 3 months?]** |
 | "$1,497/mo is a lot." | Compare it with an in-house marketer ($55–75k/yr) or 3–5 separate vendors. |
 
@@ -87,7 +92,7 @@
 **Avoid:** "ecosystem," "omni process," "equilibrium" (internal jargon). Also avoid "white-label" with SMBs, and "MLM"-sounding partner language in customer copy.
 
 **Glossary:**
-- **Workspace:** a business account; a GHL sub-account plus the GFunnel hubs.
+- **Workspace:** a business account: the GFunnel hubs plus its apps (GoHighLevel included).
 - **BEAS:** Business Equilibrium Adherence Score.
 - **Fulfillment Center:** service delivery.
 - **Partner:** a reseller.
