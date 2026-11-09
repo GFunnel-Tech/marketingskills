@@ -40,10 +40,10 @@
 **Emotional tension:** "I've been burned before," and "I don't know what's actually working."
 
 ## Competitive Landscape
-**Direct (owner-confirmed):**
-- **DashClicks**: agency software plus a white-label fulfillment marketplace. Agency-first; reviews complain about fulfillment quality.
-- **Vendasta**: a white-label platform with a 250+ product marketplace. Enterprise-grade and complex, with wholesale-plus-markup pricing.
-- **Marketing 360**: a direct-to-SMB platform plus "your own marketing executive." Quote-only pricing, marketing only.
+**Direct (depends on which offer leads; see analysis §5):**
+- $97 software: GHL SaaS-mode resellers, Thryv, HubSpot Starter, Keap.
+- DFY retainers: Marketing 360, Thryv/Hibu/Scorpion, local agencies, delegation services (Magic, Belay).
+- Agency white-label: DashClicks, Vendasta, Extendly.
 
 **Not a competitor:** GoHighLevel. It is one of the apps inside a GFunnel workspace.
 

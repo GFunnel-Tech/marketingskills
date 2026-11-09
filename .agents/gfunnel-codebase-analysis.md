@@ -70,19 +70,22 @@ Client work clusters in: **mortgage/real-estate lead gen, home-services contract
 
 ## 5. Competitor map
 
-**Positioning note (owner-confirmed):** GoHighLevel is **not a competitor — it is one of the apps you access inside GFunnel.** The code agrees: GHL is provisioned per workspace and deep-linked from the App Hub alongside Google Drive, diagrams.net and the rest. GFunnel is the layer above the apps — the workspace, the methodology, the services and the people who do the work.
+**Positioning note:** GoHighLevel is **not a competitor — it is one of the apps you access inside GFunnel.** The code agrees: GHL is provisioned per workspace and deep-linked from the App Hub alongside Google Drive, diagrams.net and the rest. GFunnel is the layer above the apps — the workspace, the methodology, the services and the people who do the work.
 
-### A. Primary competitors — "platform + done-for-you services" (owner-confirmed)
+### A. Competitors by offer (buyers compare per offer, not per company)
 
-These are the companies selling the same thing we sell: software plus the team that runs it, to SMBs directly or through agencies.
+A competitor is whatever the buyer would otherwise buy for the same job. GFunnel sells four things, so it has four competitor sets. The one that matters is set by **which offer leads**.
 
-| Competitor | What they are | How they sell | Where GFunnel can win | Where they're ahead |
-|---|---|---|---|---|
-| **DashClicks** | Agency software (CRM, funnels, sites, reporting) + a white-label **fulfillment marketplace** (SEO, ads, content, sites) + an app marketplace | Software ~$199/mo (third-party; tiers reported $97–$597), fulfillment priced per service (e.g. SEO ~$299–$399/mo + setup). Free fulfillment-only access reported | Our Fulfillment code is the same shape (cost/price split, white-label flag) **plus vendor bidding, a methodology/BEAS diagnostic, community and courses**. DashClicks' Trustpilot complaints cluster on fulfillment QA, which is an opening for a QA-gated onboarding loop (which we have) | Live, proven fulfillment at scale; mature agency reporting; brand recognition among agencies |
-| **Vendasta** | White-label platform + **marketplace of 250+ resellable products** (theirs + third-party) + CRM, client portal, AI employees | Platform tiers ~$99–$1,150+/mo (sources conflict) **plus** wholesale cost per product; partner sells at their own markup | Simpler, flatter, cheaper to start; our methodology/business score and community give an SMB a reason to stay beyond the product list | Enormous catalog, enterprise partners (media companies, telcos), multi-location, mature billing/rebilling |
-| **Marketing 360** | Direct-to-SMB "marketing platform + your own marketing executive": CRM, UXi website builder, managed ads, social, design | Quote-only. Third-party estimates: software ~$65–$95/mo entry; services billed on top (social ~$595/mo, design ~$2k, sites $3k–$20k+); typical real spend $1k+/mo | **Closest match to our SMB retainer offer.** We can win on transparency (published prices vs quote-only), on an agency/reseller channel they don't run, and on the business-wide view (9 departments, not just marketing) | Polished SMB brand, a dedicated-marketer promise customers understand, years of case studies |
+| Offer (from code) | Buyer | Who they'd otherwise buy | Most dangerous |
+|---|---|---|---|
+| **$97/mo software** (workspace, GHL and all apps included) | SMB owner | GHL "SaaS-mode" resellers (thousands, often $97–$297 with GHL under their own brand) · **Thryv** (SMB software + marketing services) · HubSpot Starter, Keap, systeme.io | **GHL SaaS resellers**: same engine, same price, niche branding |
+| **DFY retainers** ($1,497–$3,997/mo hour blocks + à-la-carte menu) | SMB owner | **Marketing 360** (platform + "your marketing executive") · **Thryv / Hibu / Scorpion** (local-SMB marketing services) · local agencies · delegation services (**Magic, Belay, Wing**) | **Marketing 360** for marketing work; **Magic/Belay** for the hours-across-9-departments model |
+| **White-label fulfillment for agencies** (cost/price ledger, vendor bidding) | Agency owner | **DashClicks** · **Vendasta** · Extendly · white-label SEO/PPC shops · Upwork/Fiverr (for the bidding side) | **DashClicks**: closest product shape |
+| **Community / partner / courses** | Creators, would-be resellers | Skool, Mighty Networks, Kajabi · GHL's own affiliate program | **Skool** |
 
-**What this means for messaging:** all three sell "software + done for you." GFunnel's genuine differences, as backed by code:
+DashClicks and Vendasta compete only on the agency track. Marketing 360 competes only on the DFY retainer. Whether either is "main" depends on whether GFunnel leads with agencies or SMBs. **[DECIDE THE WEDGE]**
+
+**What this means for messaging:** every serious competitor above sells either software OR marketing services, or both for marketing only. GFunnel's genuine differences, as backed by code:
 1. **Whole business, not just marketing.** Nine departments, the Organizer (formation, compliance), Projects, Sales Hub, time tracking/invoicing — Marketing 360 and DashClicks stop at marketing.
 2. **A diagnostic before a sale.** BEAS / the business assessment tells the owner what to fix first; none of the three leads with a methodology.
 3. **Open, low entry price.** $97/mo software with GoHighLevel and every other app included, then published service tiers ($497 → $3,997/mo). Compare DashClicks (~$199/mo software), Vendasta (platform plus wholesale per product) and Marketing 360 (quote-only, services billed separately).
