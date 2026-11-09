@@ -23,6 +23,8 @@ Every app your business runs on, in one place (bring your own, or have one built
 3. **Agencies** that serve business owners and need software, white-label fulfillment and margin.
 
 **Positioning line:** One platform from idea to business to agency.
+
+**Partner network:** Any member can earn by marketing their own products, GFunnel's products, or other members' products and services, with multi-tier commissions. Words to avoid: "MLM", "passive income", "guaranteed", and any earnings figure without an income disclosure.
 **Decision-makers:** The owner/founder, who decides and pays. An office manager is the day-to-day user.
 **Primary use case:** Get a predictable flow of leads and booked appointments without hiring a marketing team or juggling five vendors.
 **Jobs to be done:**

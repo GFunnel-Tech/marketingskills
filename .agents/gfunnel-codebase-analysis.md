@@ -112,6 +112,34 @@ The owner's description of what GFunnel does is: someone can **add all of their 
 
 **Message:** *Every app your business runs on, in one place, with help for each one and a team to do the work.* GoHighLevel included, $97/mo.
 
+## 4.0b The partner economy: sell your products, ours, or other members' (owner-confirmed)
+
+Affiliates in a multi-tier (MLM-like) structure can market **their own products, GFunnel's products, or other members' products and services**.
+
+| Piece | Where it lives in code | State |
+|---|---|---|
+| Multi-tier commissions | `aqb/affiliate` matrix (licensed vendor module), 3 generations: software 30% (50% Elite) / 10% / 5%; services 20% (30%) / 10% / 5%; marketplace 10–15% / 5–10% (Sales-hub) | Built; **the published "30–70% recurring" is not backed by any rate in the repo**; refund clawback is fixed |
+| Partner ranks | Recruit → Partner Elite III, by lifetime earnings $0–$2M (`gf_partner_blocks`) | Built |
+| Members create their own offers | `gfunnel_offers` profiles (`/offers/<uri>`), `/master-reseller` directory, Create an offer | Built; first offer not yet created live |
+| Resell rights (MRR) on members' offers | Licences, versioned terms, issue on purchase, end on refund (`gf_mrr_licence`) | Licence built; **resale payouts and clearing still spec** |
+| Sell other members' services | Vendor network (`/vendors`), Fulfillment with vendor bidding | Built; vendor payouts not automated |
+| Partner sales tools | Partner Hub, Sales-hub app (scripts, objections, income calculator, leaderboard), ampliphipartners, payouts.gfunnel.com | Built (Sales-hub idle since June) |
+
+**Competitors for this audience** (individuals who want to earn):
+- **Sell your own or others' digital products, with an affiliate network:** ClickBank, Digistore24, JVZoo, WarriorPlus, Whop.
+- **Community + earn:** Skool (affiliate program, "Skool Games"), Stan Store, systeme.io's affiliate program.
+- **Business-in-a-box / make-money education:** Legendary Marketer, Wealthy Affiliate.
+- **SaaS affiliate programs:** GoHighLevel's own 40% recurring program, PartnerStack and Impact.
+
+**GFunnel's angle:** marketplaces pay you to sell other people's products. GFunnel gives you **a real business to run** (workspace, apps, fulfillment), a **marketplace of products to sell** (yours, ours, other members'), and **a team to fulfill them**. Nobody else combines the business, the products and the fulfillment.
+
+**Compliance guardrails** (the code already enforces some, e.g. forbidden-phrase lists on earnings claims; not legal advice):
+- Pay commissions only on **real sales to real customers**, never on recruiting alone or on partners' own required purchases. That's the line the FTC draws between a lawful multi-level program and a pyramid scheme.
+- **No earnings claims** without an income disclosure statement. Don't use "passive income" or "guaranteed."
+- Don't require a purchase to join or to earn.
+- Avoid the word "MLM" in copy. Say "partner network" or "multi-tier referral."
+- Make the published rates match what the system actually pays (today they don't).
+
 ## 4.1 Competitors by audience (owner-confirmed audiences: individuals, business owners, agencies)
 
 | Audience | What they're buying | Who they'd otherwise buy | Most dangerous |
