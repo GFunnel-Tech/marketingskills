@@ -95,7 +95,19 @@ Client work clusters in: **mortgage/real-estate lead gen, home-services contract
 |---|---|---|---|
 | **Individuals** who want to start or run their own business | A path to a first business: formation, a site/funnel, a course, a community, a way to earn (partner program) | **Skool** (community + courses + "Skool Games"), **systeme.io** (free all-in-one for solopreneurs), Kajabi, ClickFunnels, Stan Store · **ZenBusiness / LegalZoom** (formation + website + compliance; overlaps the Organizer and Business Registration service) | **Skool** for community and earning; **ZenBusiness** for "start my business" |
 | **Business owners** | Leads and operations: software plus people who do the work | **Thryv**, **Marketing 360**, HubSpot Starter, Keap, GHL reseller agencies, local agencies, delegation services (Magic, Belay) | **Thryv** (software + services for local SMBs); **GHL resellers** at the $97 price point |
-| **Agencies** | Software to run clients, plus white-label fulfillment and margin | **GoHighLevel direct** (an agency can buy GHL Unlimited itself, so GHL *is* a competitor for this audience), **DashClicks**, **Vendasta**, Extendly, white-label service shops | **GoHighLevel** and **DashClicks** |
+| **Agencies** | Software to run clients, plus white-label fulfillment and margin | **Vendasta** (a replacement for the whole stack, GHL included) · **DashClicks** (software + white-label fulfillment) · tools that sit on top of GHL: Extendly (support/snapshots), client portals (SPP.co, SuiteDash, Copilot), reporting (AgencyAnalytics), white-label service shops | **DashClicks** and **Vendasta** |
+
+**GoHighLevel is a partner for agencies too, not a competitor (owner-confirmed).** An agency has three ways in, and GFunnel wins in all of them:
+1. Buy GHL directly through **GFunnel's GHL affiliate link**, so GFunnel earns the referral.
+2. **Connect its own GHL agency to GFunnel.** The code supports multiple agencies (`gf_ghl_agencies`, each with its own company id, token and SaaS plan), and creates client sub-accounts under *that* agency through the GHL API.
+3. **Create unlimited workspaces inside GFunnel** on GFunnel's own GHL agency.
+
+So the agency pitch is "GFunnel runs on top of your GoHighLevel": a workspace per client, white-label fulfillment, vendor bidding, community and courses, the business assessment, with GHL inside each workspace.
+
+Gaps the code shows for this pitch:
+- Connecting an agency is **admin-only** today (`/gf_ghl_oauth.php`), not self-serve.
+- An extra agency has no OAuth app, so its sub-accounts are **not connected to the Sales Hub**.
+- GHL sub-account automation is commented in code as "never run against a live agency." **[TEST before selling]**
 
 **Nobody serves all three as one journey.** Skool and systeme.io stop at the individual, Thryv and Marketing 360 at the business owner, GHL, DashClicks and Vendasta at the agency. The code already models that journey: personal workspace (individual) → business workspace (owner) → agency/reseller side of Fulfillment plus partner ranks (agency). The Store's three sectors say it too: Creation (build my business) → Acquisition (get customers) → Expansion (scale).
 

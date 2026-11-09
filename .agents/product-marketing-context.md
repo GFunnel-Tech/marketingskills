@@ -48,9 +48,9 @@
 **Direct (depends on which offer leads; see analysis §5):**
 - $97 software: GHL SaaS-mode resellers, Thryv, HubSpot Starter, Keap.
 - DFY retainers: Marketing 360, Thryv/Hibu/Scorpion, local agencies, delegation services (Magic, Belay).
-- Agency white-label: DashClicks, Vendasta, Extendly.
+- Agency white-label: DashClicks, Vendasta, plus tools that sit on top of GHL (Extendly, SPP.co, SuiteDash, AgencyAnalytics).
 
-**Not a competitor:** GoHighLevel. It is one of the apps inside a GFunnel workspace.
+**Not a competitor:** GoHighLevel. It is an app inside every workspace. Agencies can buy it through GFunnel's affiliate link, connect their own GHL agency, or create unlimited workspaces on ours. GFunnel runs on top of GHL.
 
 **Adjacent:** GHL "SaaS-mode" agencies, which sell software only and not the team.
 
