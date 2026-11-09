@@ -58,6 +58,27 @@ In other words, the code says we are four businesses at once:
 
 ---
 
+### 3.1 GoHighLevel's Minimum Advertised Price (MAP) policy: bundling does NOT remove it
+
+The goal was to bundle GHL inside GFunnel so the $97 MAP floor stops applying. HighLevel's own MAP FAQ (Aug 2024) addresses bundles directly:
+- **"The entire bundle that includes access to our Core Platform must be priced at or above $97."**
+- "Core Platform" means **any 2+ of**: funnel/website builder, forms, surveys, CRM, email builder, calendar, automation workflows.
+- Offering a standalone feature below $97 is prohibited "if you are bundling the standalone product with other 'free' platform features."
+
+What IS allowed:
+- **A single GHL feature sold as a true standalone product** (e.g. CRM only, or calendar only) is outside MAP.
+- **Charging less than $97 privately.** MAP covers advertised prices only. A lower actual price is allowed if it "is not offered publicly and cannot be discovered through publicly-available or searchable forums": an add-to-cart reveal, private checkout codes, or sales-call pricing.
+- In the EU/UK, discounts may be communicated.
+
+Enforcement: HighLevel may "suspend or terminate your ability to resell access." GFunnel provisions every workspace as a GHL sub-account, so that is an **existential** risk, not a fine. HighLevel says it is currently not granting MAP exceptions.
+
+Code-level risks to review:
+1. **Every personal profile gets a free GHL sub-account** on a $0 SaaS plan (`gf_ghl_personal`, default on) while the site says "everything personal is free." If that free plan exposes 2+ Core Platform features and is publicly advertised as free, it is the clearest MAP exposure on the platform. **[CHECK the $0 plan's feature set]**
+2. **Public $97 software price is compliant.** Do not publish anything lower (no "$1 for 90 days" on a public page; that offer exists in `security-spark-ads`).
+3. Lower prices must stay behind add-to-cart, private codes or sales calls.
+
+*Not legal advice. Get HighLevel's written confirmation or a lawyer's read of the current ToS before launching any sub-$97 GHL offer. The FAQ and the June 2026 ToS may differ on the exact floor.* Sources: [HighLevel MAP FAQ](https://help.gohighlevel.com/support/solutions/articles/155000003083-minimum-advertised-pricing-policy-map-policy-faqs-august-2024), [HighLevel ToS](https://www.gohighlevel.com/terms-of-service).
+
 ## 4. Who the code is built for
 
 - **Agencies** — the strongest fit by engineering: cost/price separation that hides vendor cost from the end client, white-label vendor bidding, GHL sub-account provisioning, the Glide agency OS, partner payouts.
