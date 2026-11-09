@@ -13,6 +13,9 @@
 - **Software: $97/mo**, the GFunnel workspace with **GoHighLevel and every other app included** (GHL's own entry plan is $97/mo by itself). $297/mo for unlimited workspaces. **[CONFIRM which GHL plan the $97 includes]**
 - Partners earn 30–70% commission. **[CONFIRM the single canonical price sheet]**
 
+## Core Promise
+Every app your business runs on, in one place (bring your own, or have one built), with support for each one and a team to do the work. GoHighLevel included for $97/mo.
+
 ## Target Audience
 **Target audiences (three, as one journey):**
 1. **Individuals** who want to start or run their own business (aspiring founders, solopreneurs, creators, would-be resellers).

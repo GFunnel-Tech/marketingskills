@@ -89,6 +89,29 @@ Client work clusters in: **mortgage/real-estate lead gen, home-services contract
 
 ---
 
+## 4.0 The core product: the App Hub as the business's home screen (owner-confirmed)
+
+The owner's description of what GFunnel does is: someone can **add all of their own apps, create new ones, get support for any app, and get fulfillment services**, all in one place. The code backs every part of that:
+
+| Promise | Where it lives in code | State |
+|---|---|---|
+| Add every app you use | Application Hub, Add New App → "Add Existing App" (catalogue of ~5,000 apps) or "Add your own" (`gf_app_custom`); per-workspace launch links | Built |
+| Create a new app | "Build a New App" → request to GFunnel (`gf_booking_requests`, kind `build`); the Lovable/Supabase dev shop does the work | Built (request); build is a service |
+| Support for any app | Each app has its own page with tutorials, help articles, docs, reviews and a discussion; vendors can claim their app; the Support Desk; the AI banner "How can we help with your software?" | Built; tutorials/help content still thin |
+| Track what you pay | My Subscriptions, with savings vs. the GFunnel stack | Built |
+| Have it done for you | Fulfillment Center: 14+ services, custom requests, vendor bidding | Built; payments recorded manually |
+| GoHighLevel included | GHL sub-account per workspace, deep-linked | Built; untested against a live agency |
+
+**Competitors for this specific promise** (nobody combines all of it):
+- **App aggregators:** Shift, Station, Workona put every app in one window, but offer no support and no services.
+- **Suite marketplaces:** Google Workspace and Microsoft 365 marketplaces, the HubSpot App Marketplace. They are app lists for their own suite only.
+- **Vendasta:** the closest combination (marketplace + services), but only for apps Vendasta resells, not "bring any app."
+- **Getting help with an app:** Upwork, Fiverr, vendor partner directories (HubSpot Solutions, GHL's agency marketplace).
+- **SaaS spend tracking:** Cledara, Spendflo, Zylo.
+- **Building an app:** Lovable, Bubble, dev agencies.
+
+**Message:** *Every app your business runs on, in one place, with help for each one and a team to do the work.* GoHighLevel included, $97/mo.
+
 ## 4.1 Competitors by audience (owner-confirmed audiences: individuals, business owners, agencies)
 
 | Audience | What they're buying | Who they'd otherwise buy | Most dangerous |
