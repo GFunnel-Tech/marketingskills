@@ -103,3 +103,55 @@ Partner network: *"Share what you love: your products, ours, or other members'."
 - H1 option A or B (or test both).
 - Whether to show member count now or wait until it's strong.
 - Which industry the `/business` page leads with.
+
+---
+
+## 7. Reference: neilpatel.com (owner likes it) — what to borrow
+
+**Why it works:**
+1. **One free tool as the hero action.** "Enter your URL → Start my analysis." A visitor gets value in 10 seconds, and NP gets the lead.
+2. **A founder's face**, repeated (hero, services tabs, contact form). People trust a person before a platform.
+3. **Proof immediately after the hero:** press logos, a client-logo band, big result numbers, a testimonial.
+4. **The page feels alive.** Six recent articles with authors, data studies, videos, the next live event. Most of the page is fresh content, which is authority and SEO at once.
+5. **A clear DIY-or-DFY fork:** "Everything you need" (tools, services, thought leadership tabs), then "Would you rather hand it off to the experts?"
+6. **One close:** "Let's talk about growing your business" + a short form.
+7. **Design devices:** an announcement bar, dark hero, orange accent band, one underlined phrase per H2, white card grids. GFunnel's palette (dark + orange) is already compatible.
+
+**GFunnel already has an equivalent for almost every block:**
+
+| neilpatel.com block | GFunnel equivalent (exists in code) | Status |
+|---|---|---|
+| Announcement bar | Beta strip mechanism / any banner | Built |
+| Hero: URL → free analysis | **Business search → "Claim your business + get your free business score"** (Business directory + BEAS detection) | Directory built; BEAS score built for workspaces, needs a public "preview" version |
+| Founder face | Cameron Garlick (methodology author) | Needs photos |
+| Press/client logos | None recorded | **Hold open. Never fake.** Ask clients (Rive Creative, Glide Media, KORR, UpSmith) for permission |
+| Result numbers + testimonial | None measured | **Hold open.** Use real network counts instead (businesses, apps, members) until case studies exist |
+| "Everything you need" tabs | Social · Operating System · Economy (the three layers) | Built |
+| Blog grid | Articles + member blog posts (`/articles`) | Built; needs content |
+| Data studies | — | Not built; later |
+| Videos | Reels + videos modules | Built |
+| Next live session | Events module (`bx_events`), live streaming | Built |
+| Hand it off to experts | Fulfillment Center sectors: Get more customers · Build my business · Scale my operations | Built |
+| Let's talk | `/contact-sales` | Built |
+
+**The twist that makes it GFunnel, not a copy:** on Neil's page the content is *his*. On GFunnel's homepage the articles, videos, events and communities come **from the network's members**. The content blocks prove the "social" claim at the same time as they build authority.
+
+**Do not copy:** his photos, wording, layout pixel-for-pixel, or any client logo/number we can't back.
+
+## 8. Revised section order (Neil's skeleton, GFunnel's substance)
+
+1. **Announcement bar:** e.g. *"New: claim your business page for free →"*
+2. **Hero (dark, founder photo on the right):** eyebrow *The Entrepreneur's Social Operating System* · H1 *Your profile is your business.* · one input: *"Search your business name"* → **Find & claim it** (free) · under it: *Free profile · $97/mo for your business, GoHighLevel included.*
+3. **Proof band (orange):** live counts (31,486 businesses · 5,000+ apps · members · communities). Client logos only once permitted.
+4. **"Everything you need to <u>build, run and grow</u>":** three tabs (Social · Operating System · Economy) with screenshots and the founder.
+5. **"From the <u>network</u>":** six newest articles/posts from members, with author avatars.
+6. **"Watch and <u>learn</u>":** Reels/videos carousel + courses.
+7. **"Join the next <u>live session</u>":** next event from the Events module.
+8. **"Every app, <u>one place</u>":** App Directory visual + "bring your own or have one built".
+9. **"Would you rather <u>hand it off</u>?":** three or four service cards from the Fulfillment sectors.
+10. **Pricing teaser:** Free · $97/mo (GoHighLevel included) · Done for you from $497/mo.
+11. **"Earn with the <u>network</u>":** partner program, compliant wording.
+12. **"Let's talk about <u>growing your business</u>":** short form → `/contact-sales`, founder photo.
+13. Footer with newsletter signup.
+
+**Rule for every live block:** if there's no fresh content (nothing in the last 30 days), hide the block. An empty or stale block does more harm than no block.
