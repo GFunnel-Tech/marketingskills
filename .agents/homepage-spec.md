@@ -155,3 +155,10 @@ Partner network: *"Share what you love: your products, ours, or other members'."
 13. Footer with newsletter signup.
 
 **Rule for every live block:** if there's no fresh content (nothing in the last 30 days), hide the block. An empty or stale block does more harm than no block.
+
+## 9. The articles (measured live, 2026-11-10)
+
+- **About 300 public articles** on `/articles` (34 pages × 9), also published as Markdown for AI search (`/articles.md`). They are Blogs posts (`bx_posts`), mostly by Cameron D Garlick and GFunnel.
+- **The homepage hides them.** The "News & guides" column reads the News module and `gf_content_objects`, both empty, so it shows "News is on the way." The articles feed the *other* column ("From the community") as a plain text list. **Fix:** point the homepage blog grid at the same merged source `/articles` uses (`gfArticlesMergeNewest()`), with covers and authors, as in Neil's grid.
+- **Broken covers.** On `/articles`, covers stored on GFunnel's own storage (`/s/bx_posts_photos_resized/...`) return **404**, and the card shows a broken-image icon. Covers hosted on Video to Blog's Firebase bucket load. **Fix:** fall back to the GFunnel mark when an image fails (the `/social` page already does this), and re-upload or regenerate the missing files. Also consider copying Firebase-hosted covers into GFunnel storage so the blog doesn't depend on another product's bucket.
+- **Newest article is from July 2025.** On the homepage, "newest first" reads as a dead blog. **Fix:** feature a hand-picked "start here" set organised by the Start it / Run it / Scale it journey (tags exist), and restart a publishing cadence through the existing Video to Blog → Articles desk pipeline.
